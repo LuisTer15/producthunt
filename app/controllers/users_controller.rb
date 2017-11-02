@@ -12,11 +12,6 @@ class UsersController < ApplicationController
     end
   end
 
-  def destroy
-    sign_out
-    redirect_to root_path
-  end
-
   private
     def user_params
       params.require(:user).permit(:email, :password, :name, :twitter_handle)
