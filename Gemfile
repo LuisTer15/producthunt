@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 
  gem 'gravatar-ultimate'
 
+ gem 'annotate'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
